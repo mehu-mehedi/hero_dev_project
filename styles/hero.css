@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+body{
+  
+    
+}
+.btn{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 7px;
+    
+}
+header{
+    margin-top: 51px;
+}
+/* nav bar style */
+nav{
+    
+    
+    max-width: 1600px;
+    margin: 0 auto ;
+    background: url("../images/developer.png") , url("../images/header_bg.png") ,#FFF8F3;
+    background-repeat: no-repeat;
+    background-position: 38px 30px , bottom right;
+}
+nav .nav-bar{
+    
+    display: flex;
+    gap: 629px;
+    margin-bottom: 45px;
+    margin-left: 230px;
+    align-items: center;
+   
+}
+nav .orange{
+    color: black;
+    font-size: 45px;
+    font-weight:bolder;
+}
+nav .nav-title{
+    color: #FD6E0A;
+}
+nav .menu {
+    
+    list-style: none;
+    display: flex;
+    gap: 86px;
+    text-align: center;
+    align-items: center;
+}
+nav ul a {
+    text-decoration: none;
+    color: #474747;
+    font-weight: normal;
+    font-size: 20px;
+}
+nav .nav-hero{
+    max-width: 1340px;
+    /* height: 676px; */
+    margin-left: 230px;
+    display: flex;
+    gap: 163px;
+    justify-content: center;
+    align-items: center;
+   
+}
+nav .hero-welcome{
+    font-weight: 900;
+    font-size: 45px;
+    color: #474747;
+}
+nav .hero-title{
+    font-weight: bold;
+    font-size: 75px;
+    color: black;
+    margin-bottom: 20px;
+
+}
+nav .hero-para{
+    font-weight: normal;
+    font-size: 18px;
+    color: #757575;
+    max-width: 585px;
+     margin-bottom: 30px;
+
+}
+nav .hero-other{
+    display: flex;
+    gap: 30px;
+}
+.clear-btn{
+    color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #FFF8F3;
+    padding: 18px 35px;
+    border: 1px solid #FD6E0A ;
+    border-radius: 7px;
+}

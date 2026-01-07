@@ -1,0 +1,105 @@
+main .about {
+
+    margin: 130px;
+}
+.about-section{
+   
+    max-width: 1140px;
+    margin: 0 auto;
+    
+   
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+.about-cu{
+   
+   
+    max-width: 827px;
+    padding: 130px 156px;
+    margin: 0 auto;
+    margin-top: 131px;
+}
+.about-title{
+    
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+}
+.about-para{
+    font-weight: normal;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    margin: 30px;
+}
+.about-info{
+    display: flex;
+    justify-content: space-between;
+}
+.info-name{
+    font-size: 20px;
+    color: #757575;
+    font-weight: normal;
+    text-align: center;
+}
+.bodmas{
+    font-size: 20px;
+    color: #474747;
+    font-weight: bold;
+}
+
+/* what i do section style */
+.describe{
+    max-width: 1140px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.describe-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.describe-para{
+    font-weight: normal;
+    font-size: 18px;
+    color: #757575;
+    margin: 30px;
+    max-width: 827px;
+    margin: 0 auto;
+    text-align: center;
+}
+.card{
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+    box-shadow: 0 6 50 0;
+}
+.card-1{
+    max-width: 265px;
+    box-shadow: 0 6px 50px 0 #00000021;
+    padding: 30px 30px;
+    border-radius: 12px;
+}
+.card-image{
+    height: 44px;
+    width: 44px;
+    margin-bottom: 30px;
+   
+}
+.card-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+   
+}
+.card-describe{
+    font-weight: normal;
+    font-size: 16px;
+    color: #757575;
+   
+}
