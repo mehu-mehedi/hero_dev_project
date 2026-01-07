@@ -7,10 +7,6 @@
   font-optical-sizing: auto;
   
 }
-body{
-  
-    
-}
 .btn{
     color: white;
     font-weight: bold;
@@ -27,7 +23,7 @@ header{
 /* nav bar style */
 nav{
     
-    
+    height: 837px;
     max-width: 1600px;
     margin: 0 auto ;
     background: url("../images/developer.png") , url("../images/header_bg.png") ,#FFF8F3;
@@ -35,7 +31,7 @@ nav{
     background-position: 38px 30px , bottom right;
 }
 nav .nav-bar{
-    
+    padding-top: 50px;
     display: flex;
     gap: 629px;
     margin-bottom: 45px;

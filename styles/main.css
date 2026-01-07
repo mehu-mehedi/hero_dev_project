@@ -1,3 +1,8 @@
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
 main .about {
 
     margin: 130px;
@@ -54,7 +59,7 @@ main .about {
     max-width: 1140px;
     margin: 0 auto;
     border-radius: 10px;
-    border: 1px solid black;
+   
 }
 .describe-title{
     font-weight: bold;
@@ -102,4 +107,60 @@ main .about {
     font-size: 16px;
     color: #757575;
    
+}
+
+/* resume section style */
+.resume{
+     max-width: 1140px;
+    margin: 0 auto;
+    border-radius: 10px;
+   
+    margin-top:130px;
+}
+
+.resume-title{
+    text-align: center;
+    font-size: 35px;
+    font-family: bold;
+    color: #181818;
+    margin-bottom: 130px;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+   
+}
+.resume-btn{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
+.resume-heads{
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.resume-second{
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-third{
+     font-weight: bold;
+    font-size: 30px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-pera{
+    font-weight: normal;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.hrz{
+    max-width: 558px;
+    margin-bottom: 30px;
 }
